@@ -11,7 +11,7 @@ from lrcn_model import ConvLstm
 from train import parser
 
 
-parser.add_argument('--model_dir', default=r'C:\Users\Doron\Desktop\ObjectRecognition\20191218-214903\Saved_model_checkpoints',
+parser.add_argument('--model_dir', default='/mnt/home/cmc/lrcn/LRCN/20200204-033134/Saved_model_checkpoints/',
                     type=str, help='The dir of the model we want to test')
 parser.add_argument('--model_name', default='epoch_30.pth.tar', type=str, help='the name for the model we want to test on')
 
