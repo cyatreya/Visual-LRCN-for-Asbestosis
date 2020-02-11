@@ -141,6 +141,7 @@ def get_video_list(ucf_list_root, number_of_classes, folder_dir):
 
 def save_video_names_test_and_add_labels(video_names_test, labels_decoder_dict, folder_dir, number_of_classes):
     save_test_video_details = os.path.join(folder_dir, 'test_videos_detailes.txt')
+    print(video_names_test)
     with open(save_test_video_details, 'w') as f:
         for text_video_name in video_names_test:
             label_string = text_video_name.split('/')[0]
