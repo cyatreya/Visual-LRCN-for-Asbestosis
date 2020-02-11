@@ -62,7 +62,24 @@ def main_procesing_data(args, folder_dir, sampled_video_file=None, processing_mo
         save_video_original_size_dict(video_original_size_dict, folder_dir)
         if processing_mode == 'live':
             return video_test, video_original_size
-
+    
+    
+    elif args.dataset == 'CMC':
+        for file_name in os.listdir(args.ucf_list_dir):
+            # ===== reading all of the row data from the first split of train and test =====
+            if '1' in file_name:
+                with open(os.path.join(args.ucf_list_dir, file_name)) as f:
+                    video_list = f.readlines()
+                with tqdm(total=len(video_list)) as pbar:
+                # with tqdm_notebook(total=len(dataloader)) as pbar:
+                    for video_name in video_list:
+                        video_name = video_name.split(' ')[0].rstrip('\n')
+                        capture_and_sample_video(args.row_data_dir, video_name, args.num_frames_to_extract,
+                                                 args.sampling_rate, args.ucf101_fps, folder_dir,
+                                                 args.ucf101_fps, processing_mode)
+                        pbar.update(1)
+            else:
+                pass
 
 if __name__ == '__main__':
     args = parser.parse_args()
