@@ -72,6 +72,42 @@ class UCF101DatasetSampler(Sampler):
         return self.num_samples
 
 
+class CMCDataset(Dataset):
+    def __init__(self, data_path, data, mode, dataset='CMC'):
+        super(CMCDataset, self).__init__()
+        self.dataset = dataset
+        if self.dataset == 'CMC':
+            self.labels = data[1]
+        self.data_path = data_path
+        self.images = data[0]
+        self.transform = set_transforms(mode)
+
+    # ====== Override to give PyTorch size of dataset ======
+    def __len__(self):
+        return len(self.images)
+
+    def __getitem__(self, idx):
+        if self.dataset == 'UCF101':
+            sampled_video_name = self.images[idx].split('/')[1] +'.avi'
+        elif self.dataset == 'youtube':
+            sampled_video_name = self.images[idx]
+        elif self.dataset == 'CMC':
+            sampled_video_name = self.images[idx].split('/')[1] +'.avi'
+        else:
+           print_dataset_type_error()
+        # ====== extract numpy array from the video and sample it so we will have an array with lower FPS rate =======
+        video_frames = skvideo.io.vread(os.path.join(self.data_path, sampled_video_name))
+        video_frames_array = []
+        for image in video_frames:
+            img = Image.fromarray(image.astype('uint8'), 'RGB')
+            img = self.transform(img)
+            video_frames_array.append(img)
+        img_stack = torch.stack(video_frames_array)
+        if self.dataset == 'CMC':
+            label = torch.from_numpy(np.asarray(int(self.labels[idx]))).long()
+            return img_stack, label, idx
+        else:
+            return img_stack
 
 
 
