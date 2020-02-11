@@ -52,7 +52,7 @@ parser.add_argument('--number_of_classes', default=55, type=int, help='The numbe
 def main():
     # ====== set the run settings ======
     args = parser.parse_args()
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
     folder_dir = set_project_folder_dir(args.open_new_folder, args.local_dir)
     print('The setting of the run are:\n{}\n'.format(args))
     print('The training would take place on {}\n'.format(device))
