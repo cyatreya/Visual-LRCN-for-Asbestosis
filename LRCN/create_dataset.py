@@ -87,12 +87,10 @@ class CMCDataset(Dataset):
         return len(self.images)
 
     def __getitem__(self, idx):
-        if self.dataset == 'UCF101':
+        if self.dataset == 'CMC':
             sampled_video_name = self.images[idx].split('/')[1] +'.avi'
         elif self.dataset == 'youtube':
             sampled_video_name = self.images[idx]
-        elif self.dataset == 'CMC':
-            sampled_video_name = self.images[idx].split('/')[1] +'.avi'
         else:
            print_dataset_type_error()
         # ====== extract numpy array from the video and sample it so we will have an array with lower FPS rate =======
