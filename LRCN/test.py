@@ -5,7 +5,7 @@ from utils_action_recognition import set_project_folder_dir, \
     save_setting_info, load_test_data, load_all_dataset_to_RAM_test, plot_label_distribution, test_model,\
     plot_images_with_predicted_labels, save_loss_info_into_a_file, create_video_with_labels, \
     plot_confusion_matrix, create_folder_dir_if_needed, plot_acc_per_class
-from create_dataset import UCF101Dataset
+from create_dataset import CMCDataset
 from torch.utils.data import DataLoader
 from lrcn_model import ConvLstm
 from train import parser
@@ -25,7 +25,7 @@ def main():
     print('The project directory is {}' .format(folder_dir))
     save_setting_info(args, device, folder_dir)
     test_videos_names, labels, label_decoder_dict = load_test_data(args.model_dir)
-    dataset = UCF101Dataset(args.sampled_data_dir, [test_videos_names, labels], mode='test')
+    dataset = CMCDataset(args.sampled_data_dir, [test_videos_names, labels], mode='test')
     dataloader = DataLoader(dataset, batch_size=args.batch_size, shuffle=True)
     # ======= if args.load_all_data_to_RAM True load dataset directly to the RAM (for faster computation) ======
     if args.load_all_data_to_RAM:
