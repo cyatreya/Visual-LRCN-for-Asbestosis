@@ -123,7 +123,7 @@ def get_video_list(ucf_list_root, number_of_classes, folder_dir):
         f.write('\nThe test/train split that we have train on is {}'.format(sample_train_test_split))
     for file_name in os.listdir(ucf_list_root):
         file_path = os.path.join(ucf_list_root, file_name)
-        if 'train' in file_name and sample_train_test_split in file_name:_
+        if 'train' in file_name and sample_train_test_split in file_name:
             with open(file_path) as f:
                 video_names = f.readlines()
             video_names_train, labels = get_data('train', video_names, video_names_train, number_of_classes, labels)
