@@ -124,14 +124,17 @@ def get_video_list(ucf_list_root, number_of_classes, folder_dir):
     for file_name in os.listdir(ucf_list_root):
         file_path = os.path.join(ucf_list_root, file_name)
         if 'train' in file_name and sample_train_test_split in file_name:
+            print("train_safe")
             with open(file_path) as f:
                 video_names = f.readlines()
             video_names_train, labels = get_data('train', video_names, video_names_train, number_of_classes, labels)
         elif 'classInd' in file_name:
+            print("classInd_safe")
             with open(file_path) as f:
                 labels_decoder = f.readlines()
             labels_decoder_dict = {int(x.split(' ')[0]) - 1: x.split(' ')[1].rstrip('\n') for x in labels_decoder}
         elif 'test' in file_name and sample_train_test_split in file_name:
+            print("test_safe")
             with open(file_path) as f:
                 video_names = f.readlines()
             video_names_test, _ = get_data('test', video_names, video_names_test, number_of_classes)
@@ -141,6 +144,7 @@ def get_video_list(ucf_list_root, number_of_classes, folder_dir):
 
 def save_video_names_test_and_add_labels(video_names_test, labels_decoder_dict, folder_dir, number_of_classes):
     save_test_video_details = os.path.join(folder_dir, 'test_videos_detailes.txt')
+    print(video_names_test)
     with open(save_test_video_details, 'w') as f:
         for text_video_name in video_names_test:
             label_string = text_video_name.split('/')[0]
