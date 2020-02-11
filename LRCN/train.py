@@ -75,7 +75,6 @@ def main():
     print('Data prepared\nLoading model...')
     num_class = len(label_decoder_dict) if args.number_of_classes is None else args.number_of_classes
     model = ConvLstm(args.latent_dim, args.hidden_size, args.lstm_layers, args.bidirectional, num_class)
-    model = torch.nn.DataParallel(model)
     model = model.to(device)
     # ====== setting optimizer and criterion parameters ======
     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
