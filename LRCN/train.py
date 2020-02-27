@@ -13,19 +13,20 @@ import os
 
 
 parser = argparse.ArgumentParser(description='UCF101 Action Recognition, LRCN architecture')
-parser.add_argument('--epochs', default=100, type=int, help='number of total epochs')
-parser.add_argument('--batch-size', default=16, type=int, help='mini-batch size (default:32)')
+parser.add_argument('--epochs', default=1000, type=int, help='number of total epochs')
+parser.add_argument('--model', default='resnet152', type=str, help='model, EX) densenet201, resnet152')
+parser.add_argument('--batch-size', default=32, type=int, help='mini-batch size (default:32)')
 parser.add_argument('--lr', default=5e-4, type=float, help='initial learning rate (default:5e-4')
 parser.add_argument('--num_workers', default=4, type=int,
                     help='initial num_workers, the number of processes that generate batches in parallel (default:4)')
 parser.add_argument('--split_size', default=0.2, type=int, help='set the size of the split size between validation '
                                                                 'data and train data')
 parser.add_argument('--sampled_data_dir',
-                    default='/mnt/home/cmc/lrcn/UCF101_sampled_data_video_sampling/',
+                    default=r'F:\CMC_sampled_data_video_sampling_rate_100_num frames extracted_15',
                     type=str, help='The dir for the sampled row data')
-parser.add_argument('--ucf_list_dir', default='/mnt/home/cmc/lrcn/Data_UCF101/UCF101_video_list/',
+parser.add_argument('--ucf_list_dir', default='../Data_CMC/cmcTrainTestlist_non_aug',
                     type=str, help='path to find the UCF101 list, splitting the data to train and test')
-parser.add_argument('--num_frames_video', default=5, type=int,
+parser.add_argument('--num_frames_video', default=15, type=int,
                     help='The number of frames that would be sampled from each video (default:5)')
 parser.add_argument('--seed', default=42, type=int,
                     help='initializes the pseudorandom number generator on the same number (default:42)')
@@ -47,7 +48,7 @@ parser.add_argument('--checkpoint_interval', default=5, type=int, help='Interval
 parser.add_argument('--val_check_interval', default=5, type=int, help='Interval between running validation test')
 parser.add_argument('--local_dir', default=os.getcwd(), help='The local directory of the project, setting where to '
                                                              'save the results of the run')
-parser.add_argument('--number_of_classes', default=55, type=int, help='The number of classes we would train on')
+parser.add_argument('--number_of_classes', default=2, type=int, help='The number of classes we would train on')
 
 def main():
     # ====== set the run settings ======
@@ -74,7 +75,7 @@ def main():
     plot_label_distribution(dataloaders, folder_dir, args.load_all_data_to_RAM, label_decoder_dict)
     print('Data prepared\nLoading model...')
     num_class = len(label_decoder_dict) if args.number_of_classes is None else args.number_of_classes
-    model = ConvLstm(args.latent_dim, args.hidden_size, args.lstm_layers, args.bidirectional, num_class)
+    model = ConvLstm(args.latent_dim, args.model, args.hidden_size, args.lstm_layers, args.bidirectional, num_class)
     model = model.to(device)
     # ====== setting optimizer and criterion parameters ======
     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)

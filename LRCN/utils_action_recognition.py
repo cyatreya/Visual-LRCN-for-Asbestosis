@@ -11,7 +11,7 @@ from torch.utils.data import DataLoader, TensorDataset
 import torch.nn.functional as F
 import torchvision.transforms as transforms
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import confusion_matrix, f1_score
 import math
 from tqdm import tqdm
 # from tqdm import tnrange, tqdm_notebook #used when I run in colab/GCloud
@@ -82,7 +82,7 @@ def plot_distribution(datasets_list, dataset_names_list, load_all_data_to_RAM_mo
     plt.yticks(fontsize=8)
     plt.tight_layout()
     plt.xlim(-1, max(x) + 1)
-    plt.savefig(os.path.join(folder_dir, '_'.join(dataset_names_list) + '.png'), dpi=300, bbox_inches="tight")
+    plt.savefig(os.path.join(folder_dir, '_'.join(dataset_names_list) + '.jpg'), dpi=300, bbox_inches="tight")
     plt.close()
 
 
@@ -459,7 +459,7 @@ def create_new_video(save_path, video_name, image_array):
         video_name = video_name.split('.mp4')[0]
         video_name = video_name + '.avi'
     save_video_path = os.path.join(save_path, video_name)
-    output_video = cv2.VideoWriter(save_video_path, cv2.VideoWriter_fourcc(*'MJPG'), 5, (w, h), True)
+    output_video = cv2.VideoWriter(save_video_path, cv2.VideoWriter_fourcc(*'MJPG'), 1, (w, h), True)
     for frame in range(len(image_array)):
         output_video.write(image_array[frame])
     output_video.release()
@@ -602,6 +602,9 @@ def load_test_data(model_dir, mode='load_all'):
 def plot_confusion_matrix(predicted_labels, true_labels, label_decoder_dict, save_path):
     class_order_to_plot = list(label_decoder_dict.keys())[:true_labels.max() + 1]
     cm = confusion_matrix(true_labels, predicted_labels, labels=class_order_to_plot, normalize='true')
+    f1 = f1_score(true_labels,predicted_labels, average='weighted')
+    print("cm\n", cm)
+    print("f1\n", f1)
     # ==== plot the cm as heatmap ======
     plt.figure(figsize=(8, 6))
     plt.imshow(cm, interpolation='none', aspect='auto', cmap=plt.cm.Blues)

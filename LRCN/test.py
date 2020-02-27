@@ -11,7 +11,7 @@ from lrcn_model import ConvLstm
 from train import parser
 
 
-parser.add_argument('--model_dir', default='/mnt/home/cmc/lrcn/LRCN/20200204-033134/Saved_model_checkpoints/',
+parser.add_argument('--model_dir', default=r'C:\Users\for_someday\Desktop\CMC_LRCN-master\CMC_LRCN-master\LRCN\20200224-003333\\Saved_model_checkpoints',
                     type=str, help='The dir of the model we want to test')
 parser.add_argument('--model_name', default='epoch_30.pth.tar', type=str, help='the name for the model we want to test on')
 
@@ -33,7 +33,7 @@ def main():
     plot_label_distribution(dataloader, folder_dir, args.load_all_data_to_RAM, label_decoder_dict, mode='test')
     print('Data prepared\nLoading model...')
     num_class = len(label_decoder_dict) if args.number_of_classes is None else args.number_of_classes
-    model = ConvLstm(args.latent_dim, args.hidden_size, args.lstm_layers, args.bidirectional, num_class)
+    model = ConvLstm(args.latent_dim, args.model, args.hidden_size, args.lstm_layers, args.bidirectional, num_class)
     model = model.to(device)
     # ====== setting optimizer and criterion parameters ======
     criterion = nn.CrossEntropyLoss()
