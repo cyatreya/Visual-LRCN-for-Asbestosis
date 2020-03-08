@@ -255,6 +255,7 @@ abnormal/2017-00-0069.avi 2
 abnormal/2016-00-0007.avi 2
 abnormal/2017-00-0110.avi 2
 abnormal/2017-00-0198.avi 2
+abnormal/2017-00-0115.avi 2
 abnormal/2017-00-0155.avi 2
 abnormal/2015-01-0017.avi 2
 abnormal/2013-00-0249.avi 2
