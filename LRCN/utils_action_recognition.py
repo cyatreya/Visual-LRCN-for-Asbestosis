@@ -82,7 +82,7 @@ def plot_distribution(datasets_list, dataset_names_list, load_all_data_to_RAM_mo
     plt.yticks(fontsize=8)
     plt.tight_layout()
     plt.xlim(-1, max(x) + 1)
-    plt.savefig(os.path.join(folder_dir, '_'.join(dataset_names_list) + '.jpg'), dpi=300, bbox_inches="tight")
+    plt.savefig(os.path.join(folder_dir, '_'.join(dataset_names_list) + '.png'), dpi=300, bbox_inches="tight")
     plt.close()
 
 
