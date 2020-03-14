@@ -245,7 +245,8 @@ def foward_step_no_labels(model, images):
 
 def foward_step(model, images, labels, criterion, mode=''):  # predections
     # Must be done before you run a new batch. Otherwise the LSTM will treat a new batch as a continuation of a sequence
-    model.Lstm.reset_hidden_state()
+    model.module.Lstm.reset_hidden_state()
+    # model.Lstm.reset_hidden_state()
     if mode == 'test':
         with torch.no_grad():
             output = model(images)
@@ -286,6 +287,7 @@ def test_model(model, dataloader, device, criterion, mode='test'):
     with tqdm(total=len(dataloader)) as pbar:
         # with tqdm_notebook(total=len(dataloader)) as pbar:
         for local_images, local_labels, indexs in dataloader:
+                count =+ 1
                 local_images, local_labels = local_images.to(device), local_labels.to(device)
                 loss, acc, predicted_labels = foward_step(model, local_images, local_labels, criterion, mode='test')
                 if mode == 'save_prediction_label_list':

@@ -35,10 +35,12 @@ def main():
     num_class = len(label_decoder_dict) if args.number_of_classes is None else args.number_of_classes
     model = ConvLstm(args.latent_dim, args.model, args.hidden_size, args.lstm_layers, args.bidirectional, num_class)
     model = model.to(device)
+    
     # ====== setting optimizer and criterion parameters ======
     criterion = nn.CrossEntropyLoss()
     checkpoint = torch.load(os.path.join(args.model_dir, args.model_name))
     model.load_state_dict(checkpoint['model_state_dict'])
+    model = nn.DataParallel(model)
     # ====== inference_mode ======
     test_loss, test_acc, predicted_labels, images, true_labels, index = test_model(model, dataloader, device, criterion,
                                                                             mode='save_prediction_label_list')
