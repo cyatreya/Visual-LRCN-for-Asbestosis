@@ -65,6 +65,7 @@ parser.add_argument('--number_of_classes', default=2, type=int,
 
 def main():
     # ====== set the run settings ======
+
     os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"   
     os.environ["CUDA_VISIBLE_DEVICES"]="4,5,6,7"
     args = parser.parse_args()
