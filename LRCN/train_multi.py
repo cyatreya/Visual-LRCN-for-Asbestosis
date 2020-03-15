@@ -65,6 +65,11 @@ parser.add_argument('--number_of_classes', default=2, type=int,
 
 def main():
     # ====== set the run settings ======
+<<<<<<< HEAD
+=======
+    os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"   
+    os.environ["CUDA_VISIBLE_DEVICES"]="4,5,6,7"
+>>>>>>> c139c9917a10d56fee85a67d8fbe6c84dfd80b13
     args = parser.parse_args()
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     folder_dir = set_project_folder_dir(args.open_new_folder, args.local_dir)
@@ -100,7 +105,11 @@ def main():
     if args.load_checkpoint:
         checkpoint = torch.load(args.checkpoint_path)
         model.load_state_dict(checkpoint['model_state_dict'])
+<<<<<<< HEAD
     model = nn.DataParallel(model, device_ids=[4, 5, 6, 7]).cuda()
+=======
+    model = nn.DataParallel(model, device_ids=[0,1,2,3]).cuda()
+>>>>>>> c139c9917a10d56fee85a67d8fbe6c84dfd80b13
     # ====== start training the model ======
     for epoch in range(args.epochs):
         start_epoch = time.time()

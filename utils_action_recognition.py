@@ -11,7 +11,7 @@ from torch.utils.data import DataLoader, TensorDataset
 import torch.nn.functional as F
 import torchvision.transforms as transforms
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix, f1_score
+from sklearn.metrics import confusion_matrix
 import math
 from tqdm import tqdm
 # from tqdm import tnrange, tqdm_notebook #used when I run in colab/GCloud
@@ -82,11 +82,7 @@ def plot_distribution(datasets_list, dataset_names_list, load_all_data_to_RAM_mo
     plt.yticks(fontsize=8)
     plt.tight_layout()
     plt.xlim(-1, max(x) + 1)
-<<<<<<< HEAD
     plt.savefig(os.path.join(folder_dir, '_'.join(dataset_names_list) + '.jpg'), dpi=300, bbox_inches="tight")
-=======
-    plt.savefig(os.path.join(folder_dir, '_'.join(dataset_names_list) + '.png'), dpi=300, bbox_inches="tight")
->>>>>>> c139c9917a10d56fee85a67d8fbe6c84dfd80b13
     plt.close()
 
 
@@ -128,14 +124,17 @@ def get_video_list(ucf_list_root, number_of_classes, folder_dir):
     for file_name in os.listdir(ucf_list_root):
         file_path = os.path.join(ucf_list_root, file_name)
         if 'train' in file_name and sample_train_test_split in file_name:
+            print("train_safe")
             with open(file_path) as f:
                 video_names = f.readlines()
             video_names_train, labels = get_data('train', video_names, video_names_train, number_of_classes, labels)
         elif 'classInd' in file_name:
+            print("classInd_safe")
             with open(file_path) as f:
                 labels_decoder = f.readlines()
             labels_decoder_dict = {int(x.split(' ')[0]) - 1: x.split(' ')[1].rstrip('\n') for x in labels_decoder}
         elif 'test' in file_name and sample_train_test_split in file_name:
+            print("test_safe")
             with open(file_path) as f:
                 video_names = f.readlines()
             video_names_test, _ = get_data('test', video_names, video_names_test, number_of_classes)
@@ -145,6 +144,7 @@ def get_video_list(ucf_list_root, number_of_classes, folder_dir):
 
 def save_video_names_test_and_add_labels(video_names_test, labels_decoder_dict, folder_dir, number_of_classes):
     save_test_video_details = os.path.join(folder_dir, 'test_videos_detailes.txt')
+    print(video_names_test)
     with open(save_test_video_details, 'w') as f:
         for text_video_name in video_names_test:
             label_string = text_video_name.split('/')[0]
@@ -249,8 +249,7 @@ def foward_step_no_labels(model, images):
 
 def foward_step(model, images, labels, criterion, mode=''):  # predections
     # Must be done before you run a new batch. Otherwise the LSTM will treat a new batch as a continuation of a sequence
-    model.module.Lstm.reset_hidden_state()
-    # model.Lstm.reset_hidden_state()
+    model.Lstm.reset_hidden_state()
     if mode == 'test':
         with torch.no_grad():
             output = model(images)
@@ -291,7 +290,6 @@ def test_model(model, dataloader, device, criterion, mode='test'):
     with tqdm(total=len(dataloader)) as pbar:
         # with tqdm_notebook(total=len(dataloader)) as pbar:
         for local_images, local_labels, indexs in dataloader:
-                count =+ 1
                 local_images, local_labels = local_images.to(device), local_labels.to(device)
                 loss, acc, predicted_labels = foward_step(model, local_images, local_labels, criterion, mode='test')
                 if mode == 'save_prediction_label_list':
@@ -465,7 +463,7 @@ def create_new_video(save_path, video_name, image_array):
         video_name = video_name.split('.mp4')[0]
         video_name = video_name + '.avi'
     save_video_path = os.path.join(save_path, video_name)
-    output_video = cv2.VideoWriter(save_video_path, cv2.VideoWriter_fourcc(*'MJPG'), 1, (w, h), True)
+    output_video = cv2.VideoWriter(save_video_path, cv2.VideoWriter_fourcc(*'MJPG'), 5, (w, h), True)
     for frame in range(len(image_array)):
         output_video.write(image_array[frame])
     output_video.release()
@@ -608,9 +606,6 @@ def load_test_data(model_dir, mode='load_all'):
 def plot_confusion_matrix(predicted_labels, true_labels, label_decoder_dict, save_path):
     class_order_to_plot = list(label_decoder_dict.keys())[:true_labels.max() + 1]
     cm = confusion_matrix(true_labels, predicted_labels, labels=class_order_to_plot, normalize='true')
-    f1 = f1_score(true_labels,predicted_labels, average='weighted')
-    print("cm\n", cm)
-    print("f1\n", f1)
     # ==== plot the cm as heatmap ======
     plt.figure(figsize=(8, 6))
     plt.imshow(cm, interpolation='none', aspect='auto', cmap=plt.cm.Blues)
@@ -882,8 +877,4 @@ def setting_video_size(video_original_size):
     for size_element in [w, h]:
         if size_element % 2 == 0:
             size_element += 1
-<<<<<<< HEAD
     return w, h
-=======
-    return w, h
->>>>>>> c139c9917a10d56fee85a67d8fbe6c84dfd80b13

@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 1 normal
 2 abnormal
+=======
+1 normal
+2 abnormal
+>>>>>>> c139c9917a10d56fee85a67d8fbe6c84dfd80b13
