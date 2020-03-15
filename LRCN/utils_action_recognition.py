@@ -82,11 +82,7 @@ def plot_distribution(datasets_list, dataset_names_list, load_all_data_to_RAM_mo
     plt.yticks(fontsize=8)
     plt.tight_layout()
     plt.xlim(-1, max(x) + 1)
-<<<<<<< HEAD
-    plt.savefig(os.path.join(folder_dir, '_'.join(dataset_names_list) + '.jpg'), dpi=300, bbox_inches="tight")
-=======
     plt.savefig(os.path.join(folder_dir, '_'.join(dataset_names_list) + '.png'), dpi=300, bbox_inches="tight")
->>>>>>> c139c9917a10d56fee85a67d8fbe6c84dfd80b13
     plt.close()
 
 
@@ -882,8 +878,4 @@ def setting_video_size(video_original_size):
     for size_element in [w, h]:
         if size_element % 2 == 0:
             size_element += 1
-<<<<<<< HEAD
     return w, h
-=======
-    return w, h
->>>>>>> c139c9917a10d56fee85a67d8fbe6c84dfd80b13

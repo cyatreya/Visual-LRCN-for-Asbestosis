@@ -8,10 +8,7 @@ import skvideo.io
 from torch.utils.data.sampler import Sampler
 from random import sample
 from utils_action_recognition import print_dataset_type_error, set_transforms
-<<<<<<< HEAD
 import random
-=======
->>>>>>> c139c9917a10d56fee85a67d8fbe6c84dfd80b13
 
 class UCF101Dataset(Dataset):
     def __init__(self, data_path, data, mode, dataset='UCF101'):
@@ -75,10 +72,6 @@ class UCF101DatasetSampler(Sampler):
     def __len__(self):
         return self.num_samples
 
-<<<<<<< HEAD
-=======
-
->>>>>>> c139c9917a10d56fee85a67d8fbe6c84dfd80b13
 class CMCDataset(Dataset):
     def __init__(self, data_path, data, mode, dataset='CMC'):
         super(CMCDataset, self).__init__()
@@ -103,21 +96,16 @@ class CMCDataset(Dataset):
         # ====== extract numpy array from the video and sample it so we will have an array with lower FPS rate =======
         video_frames = skvideo.io.vread(os.path.join(self.data_path, sampled_video_name))
         video_frames_array = []
-<<<<<<< HEAD
         pathdir = r'C:\Users\for_someday\Desktop\temp'
         for image in video_frames:
             img = Image.fromarray(image.astype('uint8'), 'RGB')
-            count = random.randint(0,1000000000)
-            re_img = img.resize((224,224))
-            img_name = pathdir + '\\' + str(count) + '.png'
-            if os.path.isfile(img_name):
-                count = random.randint(0,1000000000)
-                img_name = pathdir + '\\' + str(count) + '.png'
-            re_img.save(img_name, 'PNG')
-=======
-        for image in video_frames:
-            img = Image.fromarray(image.astype('uint8'), 'RGB')
->>>>>>> c139c9917a10d56fee85a67d8fbe6c84dfd80b13
+            # count = random.randint(0,1000000000)
+            # re_img = img.resize((224,224))
+            # img_name = pathdir + '\\' + str(count) + '.png'
+            # if os.path.isfile(img_name):
+            #     count = random.randint(0,1000000000)
+            #     img_name = pathdir + '\\' + str(count) + '.png'
+            # re_img.save(img_name, 'PNG')
             img = self.transform(img)
             video_frames_array.append(img)
         img_stack = torch.stack(video_frames_array)
