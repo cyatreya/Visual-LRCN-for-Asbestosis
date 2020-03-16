@@ -6,7 +6,6 @@ from tqdm import tnrange, tqdm_notebook #used when I run in colab/GCloud
 import os
 
 parser = argparse.ArgumentParser(description='UCF101 Action Recognition preprocessing data, LRCN architecture')
-<<<<<<< HEAD
 parser.add_argument('--row_data_dir', default=r'F:\cmc_data2', type=str,
                     help='path to find the UCF101 row data')
 parser.add_argument('--ucf_list_dir',
@@ -18,19 +17,6 @@ parser.add_argument('--num_frames_to_extract', default=15, type=int, help='The n
 parser.add_argument('--video_file_name', default='y2mate.com - cute_happy_baby_crawling_BkJ6FJ2jJEQ_360p.mp4', type=str,
                     help='the video file name we would process, if none the script would run on all of the video files in the folder')
 parser.add_argument('--dataset', default='CMC', type=str,
-=======
-parser.add_argument('--row_data_dir', default='/mnt/home/cmc/lrcn/UCF-101/', type=str,
-                    help='path to find the UCF101 row data')
-parser.add_argument('--ucf_list_dir',
-                    default='/mnt/home/cmc/lrcn/Data_UCF101/UCF101_video_list/',
-                    type=str, help='path to find the UCF101 list splitting the data to train and test')
-parser.add_argument('--sampling_rate', default=10, type=int, help='how to sample the data')
-parser.add_argument('--ucf101_fps', default=25, type=int, help='FPS of the UCF101 dataset')
-parser.add_argument('--num_frames_to_extract', default=5, type=int, help='The number of frames what would be extracted from each video')
-parser.add_argument('--video_file_name', default='y2mate.com - cute_happy_baby_crawling_BkJ6FJ2jJEQ_360p.mp4', type=str,
-                    help='the video file name we would process, if none the script would run on all of the video files in the folder')
-parser.add_argument('--dataset', default='UCF101', type=str,
->>>>>>> c139c9917a10d56fee85a67d8fbe6c84dfd80b13
                     help='the dataset name. options = youtube, UCF101')
 
 
