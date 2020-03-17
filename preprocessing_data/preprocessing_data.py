@@ -84,7 +84,7 @@ def main_procesing_data(args, folder_dir, sampled_video_file=None, processing_mo
 if __name__ == '__main__':
     args = parser.parse_args()
     global_dir = os.path.normpath(args.row_data_dir + os.sep + os.pardir)
-    folder_name = '{}_sampled_data_video_sampling_rate_{}_num frames extracted_{}'.format(args.dataset, args.sampling_rate,
+    folder_name = '{}_sampled_data_video_sampling_rate_{}_num frames extracted_{}_20'.format(args.dataset, args.sampling_rate,
         args.num_frames_to_extract)
     folder_dir = os.path.join(global_dir, folder_name)
     create_folder_dir_if_needed(folder_dir)
