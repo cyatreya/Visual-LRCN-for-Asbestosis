@@ -570,11 +570,6 @@ def capture_and_sample_video(row_data_dir, video_name, num_frames_to_extract, sa
         success, image = video.read()
         if not success:
             print('Error in reading frames from row video')
-<<<<<<< HEAD
-            print('video_name', video_name)
-
-=======
->>>>>>> c139c9917a10d56fee85a67d8fbe6c84dfd80b13
         else:
             RGB_img = cv2.cvtColor(image, cv2.COLOR_BGR2RGB) if processing_mode == 'live' else image
             image = Image.fromarray(RGB_img.astype('uint8'), 'RGB')
