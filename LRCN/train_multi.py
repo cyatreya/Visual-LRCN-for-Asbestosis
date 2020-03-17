@@ -126,7 +126,7 @@ def main():
             save_loss_info_into_a_file(
                 train_loss, val_loss, train_acc, val_acc, folder_dir, epoch)
         if (epoch % args.checkpoint_interval) == 0:
-            hp_dict = {'model_state_dict': model.state_dict()}
+            hp_dict = {'model_state_dict': model.module.state_dict()}
             save_model_dir = os.path.join(
                 folder_dir, 'Saved_model_checkpoints')
             create_folder_dir_if_needed(save_model_dir)
