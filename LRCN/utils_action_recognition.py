@@ -607,6 +607,8 @@ def plot_confusion_matrix(predicted_labels, true_labels, label_decoder_dict, sav
     f1 = f1_score(true_labels,predicted_labels, average='weighted')
     print("cm\n", cm)
     print("f1\n", f1)
+    print("ture_labels", true_labels)
+    print("predicted_labels", predicted_labels)
     # ==== plot the cm as heatmap ======
     plt.figure(figsize=(8, 6))
     plt.imshow(cm, interpolation='none', aspect='auto', cmap=plt.cm.Blues)
