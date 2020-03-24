@@ -131,6 +131,7 @@ def get_video_list(ucf_list_root, number_of_classes, folder_dir):
             with open(file_path) as f:
                 labels_decoder = f.readlines()
             labels_decoder_dict = {int(x.split(' ')[0]) - 1: x.split(' ')[1].rstrip('\n') for x in labels_decoder}
+            print(labels_decoder_dict)
         elif 'test' in file_name and sample_train_test_split in file_name:
             with open(file_path) as f:
                 video_names = f.readlines()
