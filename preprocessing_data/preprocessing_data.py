@@ -6,14 +6,14 @@ from tqdm import tnrange, tqdm_notebook #used when I run in colab/GCloud
 import os
 
 parser = argparse.ArgumentParser(description='UCF101 Action Recognition preprocessing data, LRCN architecture')
-parser.add_argument('--row_data_dir', default=r'F:\cmc_data2', type=str,
+parser.add_argument('--row_data_dir', default=r'F:\h_data_avi', type=str,
                     help='path to find the UCF101 row data')
 parser.add_argument('--ucf_list_dir',
-                    default='../Data_CMC/cmcTrainTestlist_non_aug/1_70',
+                    default='../Data_CMC/cmcTrainTestlist_non_aug/h_70',
                     type=str, help='path to find the UCF101 list splitting the data to train and test')
 parser.add_argument('--sampling_rate', default=100, type=int, help='how to sample the data')
 parser.add_argument('--ucf101_fps', default=1, type=int, help='FPS of the UCF101 dataset')
-parser.add_argument('--num_frames_to_extract', default=20, type=int, help='The number of frames what would be extracted from each video')
+parser.add_argument('--num_frames_to_extract', default=15, type=int, help='The number of frames what would be extracted from each video')
 parser.add_argument('--video_file_name', default='y2mate.com - cute_happy_baby_crawling_BkJ6FJ2jJEQ_360p.mp4', type=str,
                     help='the video file name we would process, if none the script would run on all of the video files in the folder')
 parser.add_argument('--dataset', default='CMC', type=str,
@@ -84,7 +84,7 @@ def main_procesing_data(args, folder_dir, sampled_video_file=None, processing_mo
 if __name__ == '__main__':
     args = parser.parse_args()
     global_dir = os.path.normpath(args.row_data_dir + os.sep + os.pardir)
-    folder_name = '{}_sampled_data_video_sampling_rate_{}_num frames extracted_{}_20'.format(args.dataset, args.sampling_rate,
+    folder_name = '{}_sampled_data_video_sampling_rate_{}_num frames extracted_{}_h'.format(args.dataset, args.sampling_rate,
         args.num_frames_to_extract)
     folder_dir = os.path.join(global_dir, folder_name)
     create_folder_dir_if_needed(folder_dir)

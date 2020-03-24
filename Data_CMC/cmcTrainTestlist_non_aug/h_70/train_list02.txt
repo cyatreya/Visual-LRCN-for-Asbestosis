@@ -1,396 +1,396 @@
+normal/31338012.avi 1
 normal/31671962.avi 1
-normal/30031422.avi 1
-normal/29480520.avi 1
-normal/2014-00-0272.avi 1
-normal/30594141.avi 1
-normal/29972802.avi 1
-normal/30031385.avi 1
-normal/2014-00-0279.avi 1
-normal/30769451.avi 1
-normal/2014-00-0019.avi 1
-normal/29609974.avi 1
-normal/30653182.avi 1
-normal/2016-00-0233.avi 1
-normal/30200085.avi 1
-normal/31274566.avi 1
-normal/31486352.avi 1
-normal/28692706.avi 1
-normal/29769033.avi 1
-normal/2014-00-0050.avi 1
-normal/2015-00-0216.avi 1
+normal/30792834.avi 1
+normal/29790336.avi 1
+normal/2014-00-0244.avi 1
+normal/30523326.avi 1
+normal/31243784.avi 1
+normal/29681215.avi 1
+normal/2013-00-0179.avi 1
+normal/30241312.avi 1
+normal/30824241.avi 1
+normal/23899716.avi 1
+normal/2016-00-0545.avi 1
+normal/29971431.avi 1
+normal/29259922.avi 1
+normal/29906451.avi 1
+normal/2013-00-0283.avi 1
+normal/2013-00-0204.avi 1
+normal/31358361.avi 1
+normal/25607583.avi 1
+normal/29849021.avi 1
+normal/30959394.avi 1
+normal/2017-00-0088.avi 1
 normal/2015-00-0106.avi 1
-normal/2016-00-0489.avi 1
-normal/31104815.avi 1
-normal/29083451.avi 1
-normal/31130022.avi 1
-normal/29952194.avi 1
-normal/31437302.avi 1
-normal/31200105.avi 1
-normal/5217790.avi 1
-normal/2015-00-0115.avi 1
-normal/2014-00-0075.avi 1
-normal/29453233.avi 1
-normal/2015-00-0420.avi 1
-normal/30031394.avi 1
-normal/24118614.avi 1
-normal/30452814.avi 1
-normal/31195232.avi 1
-normal/2016-00-0565.avi 1
-normal/29848650.avi 1
-normal/2015-00-0023.avi 1
-normal/29330031.avi 1
-normal/30324761.avi 1
-normal/2013-00-0089.avi 1
-normal/31383275.avi 1
-normal/30361700.avi 1
-normal/31127032.avi 1
-normal/29609965.avi 1
-normal/2015-00-0326.avi 1
+normal/29333253.avi 1
+normal/30879243.avi 1
+normal/30556541.avi 1
 normal/2015-00-0265.avi 1
-normal/2017-00-0018.avi 1
-normal/31634682.avi 1
-normal/2014-00-0348.avi 1
-normal/29868911.avi 1
+normal/30152765.avi 1
+normal/2016-00-0216.avi 1
+normal/31309142.avi 1
+normal/2015-00-0420.avi 1
+normal/29769033.avi 1
 normal/29330040.avi 1
-normal/30756032.avi 1
-normal/31480591.avi 1
-normal/2014-00-0315.avi 1
-normal/2015-00-0146.avi 1
-normal/30577390.avi 1
-normal/29473052.avi 1
-normal/29485692.avi 1
-normal/30596271.avi 1
-normal/30309193.avi 1
-normal/31166854.avi 1
-normal/30514461.avi 1
+normal/29480520.avi 1
+normal/30824722.avi 1
+normal/30379852.avi 1
+normal/30838891.avi 1
+normal/31496283.avi 1
+normal/30820071.avi 1
 normal/30043294.avi 1
-normal/29324221.avi 1
 normal/2014-00-0201.avi 1
-normal/27517200.avi 1
+normal/29530083.avi 1
+normal/27041563.avi 1
+normal/29324221.avi 1
+normal/29726415.avi 1
+normal/29702066.avi 1
+normal/2016-00-0228.avi 1
+normal/30031385.avi 1
+normal/29317915.avi 1
+normal/29305203.avi 1
+normal/30306123.avi 1
+normal/2016-00-0489.avi 1
+normal/29972802.avi 1
+normal/30548643.avi 1
+normal/2016-00-0229.avi 1
+normal/30990182.avi 1
+normal/2016-00-0113.avi 1
+normal/2015-00-0372.avi 1
+normal/30219031.avi 1
+normal/29710415.avi 1
+normal/30691862.avi 1
+normal/30355242.avi 1
+normal/2017-00-0033.avi 1
+normal/30462033.avi 1
+normal/30884266.avi 1
+normal/30355231.avi 1
+normal/2014-00-0075.avi 1
+normal/9086982.avi 1
+normal/29952194.avi 1
+normal/29103641.avi 1
+normal/29216654.avi 1
+normal/30548654.avi 1
+normal/30576212.avi 1
+normal/29994452.avi 1
+normal/29147543.avi 1
+normal/2015-00-0146.avi 1
+normal/30514461.avi 1
+normal/2017-00-0018.avi 1
+normal/30572841.avi 1
+normal/30596271.avi 1
+normal/30462060.avi 1
+normal/2017-00-0014.avi 1
+normal/2015-00-0326.avi 1
+normal/30198494.avi 1
+normal/31218502.avi 1
+normal/2017-00-0037.avi 1
+normal/30382522.avi 1
+normal/31568384.avi 1
+normal/2015-00-0227.avi 1
+normal/31440765.avi 1
+normal/30775305.avi 1
+normal/29915601.avi 1
+normal/30756041.avi 1
+normal/2015-00-0282.avi 1
+normal/29950814.avi 1
+normal/29802671.avi 1
+normal/31554313.avi 1
+normal/30802322.avi 1
+normal/31409326.avi 1
+normal/31605631.avi 1
+normal/29716061.avi 1
+normal/28630392.avi 1
+normal/2014-00-0019.avi 1
+normal/2015-00-0216.avi 1
+normal/29678142.avi 1
+normal/31653414.avi 1
+normal/2014-00-0279.avi 1
+normal/2015-00-0111.avi 1
+normal/2016-00-0462.avi 1
+normal/2014-00-0050.avi 1
+normal/29564602.avi 1
+normal/31541333.avi 1
+normal/29120553.avi 1
+normal/29620855.avi 1
+normal/2013-00-0089.avi 1
+normal/30756050.avi 1
+normal/28602324.avi 1
+normal/28422863.avi 1
+normal/30838853.avi 1
+normal/23881086.avi 1
+normal/31502783.avi 1
+normal/2017-00-0054.avi 1
+normal/26442212.avi 1
+normal/29083451.avi 1
+normal/30769451.avi 1
+normal/30637324.avi 1
+normal/30640912.avi 1
 normal/2017-00-0162.avi 1
+normal/30200085.avi 1
+normal/31321595.avi 1
+normal/2015-00-0023.avi 1
+normal/30317764.avi 1
+normal/29560022.avi 1
+normal/2016-00-0565.avi 1
+normal/29692442.avi 1
+normal/31127041.avi 1
+normal/31166854.avi 1
+normal/2015-00-0212.avi 1
+normal/30883231.avi 1
+normal/31749711.avi 1
 normal/31045364.avi 1
 normal/29414402.avi 1
-normal/30379886.avi 1
-normal/28584736.avi 1
-normal/30285242.avi 1
-normal/2016-00-0229.avi 1
-normal/9086982.avi 1
-normal/30462033.avi 1
-normal/29620855.avi 1
-normal/29971431.avi 1
-normal/31056134.avi 1
-normal/2015-00-0409.avi 1
-normal/2016-00-0113.avi 1
-normal/2016-00-0298.avi 1
-normal/30355264.avi 1
-normal/29681215.avi 1
-normal/30745382.avi 1
-normal/30174871.avi 1
-normal/29669391.avi 1
-normal/30382540.avi 1
-normal/31707112.avi 1
-normal/29692442.avi 1
-normal/31206682.avi 1
-normal/2016-00-0237.avi 1
-normal/2016-00-0511.avi 1
-normal/30556541.avi 1
-normal/31502783.avi 1
-normal/31321595.avi 1
-normal/27209964.avi 1
-normal/30306123.avi 1
-normal/31563451.avi 1
-normal/30835463.avi 1
-normal/2016-00-0102.avi 1
-normal/29120553.avi 1
-normal/29530083.avi 1
-normal/2016-00-0554.avi 1
-normal/29678142.avi 1
-normal/2016-00-0216.avi 1
-normal/31568384.avi 1
-normal/31605631.avi 1
-normal/2015-00-0050.avi 1
-normal/2013-00-0161.avi 1
-normal/2017-00-0050.avi 1
-normal/2016-00-0435.avi 1
-normal/31218502.avi 1
-normal/30990182.avi 1
-normal/2017-00-0054.avi 1
-normal/31749711.avi 1
-normal/30323423.avi 1
-normal/23922356.avi 1
-normal/29994452.avi 1
-normal/2015-00-0372.avi 1
-normal/2017-00-0014.avi 1
-normal/28422863.avi 1
-normal/30382522.avi 1
-normal/30317764.avi 1
-normal/28630392.avi 1
-normal/30241312.avi 1
-normal/29560022.avi 1
-normal/31304745.avi 1
-normal/29330051.avi 1
-normal/29710415.avi 1
-normal/2016-00-0515.avi 1
-normal/31667284.avi 1
-normal/29131412.avi 1
-normal/30219031.avi 1
-normal/30959394.avi 1
-normal/2016-00-0462.avi 1
-normal/30576212.avi 1
-normal/2013-00-0179.avi 1
-normal/31127041.avi 1
-normal/29305203.avi 1
-normal/29564602.avi 1
-normal/30879243.avi 1
-normal/30548654.avi 1
-normal/27041563.avi 1
-normal/31338012.avi 1
-normal/30637176.avi 1
-normal/25735096.avi 1
-normal/2013-00-0283.avi 1
-normal/29771706.avi 1
-normal/2017-00-0088.avi 1
-normal/30792834.avi 1
-normal/23900946.avi 1
-normal/23899716.avi 1
-normal/30650832.avi 1
-normal/2015-00-0227.avi 1
-normal/31496283.avi 1
-normal/29103641.avi 1
-normal/30824722.avi 1
-normal/23881086.avi 1
-normal/30640912.avi 1
-normal/30824295.avi 1
-normal/30838891.avi 1
-normal/26442212.avi 1
-normal/2015-00-0354.avi 1
-normal/2017-00-0037.avi 1
-normal/29216654.avi 1
-normal/29915601.avi 1
-normal/30775305.avi 1
-normal/28260415.avi 1
-normal/30462104.avi 1
-normal/31541333.avi 1
 normal/30670013.avi 1
-normal/29716061.avi 1
-normal/29317915.avi 1
-normal/29373825.avi 1
-abnormal/1 (2).avi 2
-abnormal/1 (113).avi 2
-abnormal/1 (37).avi 2
-abnormal/1 (145).avi 2
-abnormal/1 (71).avi 2
-abnormal/1 (308).avi 2
-abnormal/1 (116).avi 2
-abnormal/1 (48).avi 2
-abnormal/1 (165).avi 2
-abnormal/1 (254).avi 2
-abnormal/1 (1).avi 2
-abnormal/1 (191).avi 2
-abnormal/1 (10).avi 2
-abnormal/1 (168).avi 2
-abnormal/1 (63).avi 2
-abnormal/1 (148).avi 2
-abnormal/1 (174).avi 2
-abnormal/1 (209).avi 2
-abnormal/1 (217).avi 2
-abnormal/1 (17).avi 2
-abnormal/1 (133).avi 2
-abnormal/1 (106).avi 2
-abnormal/1 (82).avi 2
-abnormal/1 (93).avi 2
-abnormal/1 (170).avi 2
-abnormal/1 (66).avi 2
-abnormal/1 (268).avi 2
-abnormal/1 (68).avi 2
-abnormal/1 (44).avi 2
-abnormal/1 (249).avi 2
-abnormal/1 (244).avi 2
-abnormal/1 (152).avi 2
-abnormal/1 (304).avi 2
-abnormal/1 (136).avi 2
-abnormal/1 (214).avi 2
-abnormal/1 (261).avi 2
-abnormal/1 (199).avi 2
-abnormal/1 (7).avi 2
-abnormal/1 (67).avi 2
-abnormal/1 (228).avi 2
-abnormal/1 (208).avi 2
-abnormal/1 (102).avi 2
-abnormal/1 (157).avi 2
-abnormal/1 (79).avi 2
-abnormal/1 (266).avi 2
-abnormal/1 (11).avi 2
-abnormal/1 (32).avi 2
-abnormal/1 (169).avi 2
-abnormal/1 (114).avi 2
-abnormal/1 (204).avi 2
-abnormal/1 (319).avi 2
-abnormal/1 (135).avi 2
-abnormal/1 (73).avi 2
-abnormal/1 (8).avi 2
-abnormal/1 (297).avi 2
-abnormal/1 (97).avi 2
-abnormal/1 (60).avi 2
-abnormal/1 (245).avi 2
-abnormal/1 (127).avi 2
-abnormal/1 (292).avi 2
-abnormal/1 (100).avi 2
-abnormal/1 (105).avi 2
-abnormal/1 (65).avi 2
-abnormal/1 (29).avi 2
-abnormal/1 (238).avi 2
-abnormal/1 (223).avi 2
-abnormal/1 (45).avi 2
-abnormal/1 (160).avi 2
-abnormal/1 (26).avi 2
-abnormal/1 (21).avi 2
-abnormal/1 (124).avi 2
-abnormal/1 (34).avi 2
-abnormal/1 (13).avi 2
-abnormal/1 (229).avi 2
-abnormal/1 (50).avi 2
-abnormal/1 (230).avi 2
-abnormal/1 (227).avi 2
-abnormal/1 (282).avi 2
-abnormal/1 (302).avi 2
-abnormal/1 (320).avi 2
-abnormal/1 (188).avi 2
-abnormal/1 (95).avi 2
-abnormal/1 (201).avi 2
-abnormal/1 (213).avi 2
-abnormal/1 (121).avi 2
-abnormal/1 (294).avi 2
-abnormal/1 (293).avi 2
-abnormal/1 (186).avi 2
-abnormal/1 (222).avi 2
-abnormal/1 (75).avi 2
-abnormal/1 (193).avi 2
-abnormal/1 (92).avi 2
-abnormal/1 (129).avi 2
-abnormal/1 (263).avi 2
-abnormal/1 (252).avi 2
-abnormal/1 (257).avi 2
-abnormal/1 (166).avi 2
-abnormal/1 (22).avi 2
-abnormal/1 (149).avi 2
-abnormal/1 (306).avi 2
-abnormal/1 (162).avi 2
-abnormal/1 (260).avi 2
-abnormal/1 (112).avi 2
-abnormal/1 (291).avi 2
-abnormal/1 (185).avi 2
-abnormal/1 (243).avi 2
-abnormal/1 (150).avi 2
-abnormal/1 (84).avi 2
-abnormal/1 (305).avi 2
-abnormal/1 (103).avi 2
-abnormal/1 (202).avi 2
-abnormal/1 (315).avi 2
-abnormal/1 (318).avi 2
-abnormal/1 (180).avi 2
-abnormal/1 (158).avi 2
-abnormal/1 (303).avi 2
-abnormal/1 (300).avi 2
-abnormal/1 (242).avi 2
-abnormal/1 (317).avi 2
-abnormal/1 (237).avi 2
-abnormal/1 (140).avi 2
-abnormal/1 (53).avi 2
-abnormal/1 (296).avi 2
-abnormal/1 (128).avi 2
-abnormal/1 (287).avi 2
-abnormal/1 (143).avi 2
-abnormal/1 (314).avi 2
-abnormal/1 (104).avi 2
-abnormal/1 (125).avi 2
-abnormal/1 (83).avi 2
-abnormal/1 (264).avi 2
-abnormal/1 (250).avi 2
-abnormal/1 (107).avi 2
-abnormal/1 (307).avi 2
-abnormal/1 (12).avi 2
-abnormal/1 (76).avi 2
-abnormal/1 (312).avi 2
-abnormal/1 (205).avi 2
-abnormal/1 (74).avi 2
-abnormal/1 (241).avi 2
-abnormal/1 (299).avi 2
-abnormal/1 (77).avi 2
-abnormal/1 (5).avi 2
-abnormal/1 (18).avi 2
-abnormal/1 (171).avi 2
-abnormal/1 (290).avi 2
-abnormal/1 (210).avi 2
-abnormal/1 (248).avi 2
-abnormal/1 (203).avi 2
-abnormal/1 (182).avi 2
-abnormal/1 (220).avi 2
-abnormal/1 (286).avi 2
-abnormal/1 (57).avi 2
-abnormal/1 (221).avi 2
-abnormal/1 (226).avi 2
-abnormal/1 (284).avi 2
-abnormal/1 (215).avi 2
-abnormal/1 (25).avi 2
-abnormal/1 (147).avi 2
-abnormal/1 (198).avi 2
-abnormal/1 (219).avi 2
-abnormal/1 (123).avi 2
-abnormal/1 (197).avi 2
-abnormal/1 (96).avi 2
-abnormal/1 (167).avi 2
-abnormal/1 (49).avi 2
-abnormal/1 (161).avi 2
-abnormal/1 (126).avi 2
-abnormal/1 (14).avi 2
-abnormal/1 (269).avi 2
-abnormal/1 (3).avi 2
-abnormal/1 (69).avi 2
-abnormal/1 (109).avi 2
-abnormal/1 (207).avi 2
-abnormal/1 (235).avi 2
-abnormal/1 (224).avi 2
-abnormal/1 (134).avi 2
-abnormal/1 (122).avi 2
-abnormal/1 (310).avi 2
-abnormal/1 (173).avi 2
-abnormal/1 (298).avi 2
-abnormal/1 (72).avi 2
-abnormal/1 (9).avi 2
-abnormal/1 (313).avi 2
-abnormal/1 (178).avi 2
-abnormal/1 (280).avi 2
-abnormal/1 (195).avi 2
-abnormal/1 (281).avi 2
-abnormal/1 (61).avi 2
-abnormal/1 (295).avi 2
-abnormal/1 (239).avi 2
-abnormal/1 (39).avi 2
-abnormal/1 (236).avi 2
-abnormal/1 (99).avi 2
-abnormal/1 (98).avi 2
-abnormal/1 (33).avi 2
-abnormal/1 (151).avi 2
-abnormal/1 (56).avi 2
-abnormal/1 (115).avi 2
-abnormal/1 (141).avi 2
-abnormal/1 (155).avi 2
-abnormal/1 (28).avi 2
-abnormal/1 (111).avi 2
-abnormal/1 (120).avi 2
-abnormal/1 (179).avi 2
-abnormal/1 (267).avi 2
-abnormal/1 (90).avi 2
-abnormal/1 (59).avi 2
-abnormal/1 (41).avi 2
-abnormal/1 (130).avi 2
-abnormal/1 (200).avi 2
-abnormal/1 (62).avi 2
-abnormal/1 (142).avi 2
-abnormal/1 (35).avi 2
-abnormal/1 (52).avi 2
-abnormal/1 (154).avi 2
-abnormal/1 (276).avi 2
-abnormal/1 (70).avi 2
-abnormal/1 (253).avi 2
+normal/2014-00-0348.avi 1
+normal/29609965.avi 1
+normal/30819052.avi 1
+normal/2016-00-0237.avi 1
+normal/31064836.avi 1
+normal/29848650.avi 1
+normal/2016-00-0102.avi 1
+normal/31634682.avi 1
+normal/30462104.avi 1
+normal/2015-00-0356.avi 1
+normal/31055561.avi 1
+normal/29802642.avi 1
+normal/30285242.avi 1
+normal/30824295.avi 1
+normal/2016-00-0554.avi 1
+normal/31274566.avi 1
+normal/30577390.avi 1
+normal/29131412.avi 1
+normal/31437302.avi 1
+normal/29473052.avi 1
+normal/29453233.avi 1
+normal/2014-00-0340.avi 1
+normal/31486352.avi 1
+normal/30323423.avi 1
+normal/30745382.avi 1
+normal/29485932.avi 1
+normal/29971420.avi 1
+normal/2015-00-0115.avi 1
+normal/30452814.avi 1
+normal/30988322.avi 1
+normal/30594141.avi 1
+normal/30199781.avi 1
+normal/30637222.avi 1
+abnormal/exam106.avi 2
+abnormal/exam274.avi 2
+abnormal/exam039.avi 2
+abnormal/exam121.avi 2
+abnormal/exam147.avi 2
+abnormal/exam010.avi 2
+abnormal/exam096.avi 2
+abnormal/exam256.avi 2
+abnormal/exam105.avi 2
+abnormal/exam065.avi 2
+abnormal/exam202.avi 2
+abnormal/exam280.avi 2
+abnormal/exam155.avi 2
+abnormal/exam211.avi 2
+abnormal/exam050.avi 2
+abnormal/exam084.avi 2
+abnormal/exam045.avi 2
+abnormal/exam237.avi 2
+abnormal/exam184.avi 2
+abnormal/exam142.avi 2
+abnormal/exam041.avi 2
+abnormal/exam104.avi 2
+abnormal/exam186.avi 2
+abnormal/exam264.avi 2
+abnormal/exam140.avi 2
+abnormal/exam125.avi 2
+abnormal/exam109.avi 2
+abnormal/exam259.avi 2
+abnormal/exam158.avi 2
+abnormal/exam062.avi 2
+abnormal/exam299.avi 2
+abnormal/exam119.avi 2
+abnormal/exam226.avi 2
+abnormal/exam094.avi 2
+abnormal/exam298.avi 2
+abnormal/exam201.avi 2
+abnormal/exam013.avi 2
+abnormal/exam028.avi 2
+abnormal/exam067.avi 2
+abnormal/exam166.avi 2
+abnormal/exam236.avi 2
+abnormal/exam161.avi 2
+abnormal/exam120.avi 2
+abnormal/exam271.avi 2
+abnormal/exam042.avi 2
+abnormal/exam167.avi 2
+abnormal/exam037.avi 2
+abnormal/exam203.avi 2
+abnormal/exam165.avi 2
+abnormal/exam230.avi 2
+abnormal/exam087.avi 2
+abnormal/exam052.avi 2
+abnormal/exam098.avi 2
+abnormal/exam208.avi 2
+abnormal/exam001.avi 2
+abnormal/exam188.avi 2
+abnormal/exam214.avi 2
+abnormal/exam198.avi 2
+abnormal/exam225.avi 2
+abnormal/exam022.avi 2
+abnormal/exam127.avi 2
+abnormal/exam241.avi 2
+abnormal/exam143.avi 2
+abnormal/exam297.avi 2
+abnormal/exam258.avi 2
+abnormal/exam311.avi 2
+abnormal/exam025.avi 2
+abnormal/exam309.avi 2
+abnormal/exam295.avi 2
+abnormal/exam046.avi 2
+abnormal/exam044.avi 2
+abnormal/exam247.avi 2
+abnormal/exam206.avi 2
+abnormal/exam209.avi 2
+abnormal/exam030.avi 2
+abnormal/exam285.avi 2
+abnormal/exam276.avi 2
+abnormal/exam283.avi 2
+abnormal/exam228.avi 2
+abnormal/exam305.avi 2
+abnormal/exam163.avi 2
+abnormal/exam183.avi 2
+abnormal/exam215.avi 2
+abnormal/exam097.avi 2
+abnormal/exam300.avi 2
+abnormal/exam113.avi 2
+abnormal/exam246.avi 2
+abnormal/exam080.avi 2
+abnormal/exam024.avi 2
+abnormal/exam243.avi 2
+abnormal/exam234.avi 2
+abnormal/exam122.avi 2
+abnormal/exam049.avi 2
+abnormal/exam014.avi 2
+abnormal/exam034.avi 2
+abnormal/exam126.avi 2
+abnormal/exam059.avi 2
+abnormal/exam151.avi 2
+abnormal/exam266.avi 2
+abnormal/exam003.avi 2
+abnormal/exam135.avi 2
+abnormal/exam267.avi 2
+abnormal/exam051.avi 2
+abnormal/exam292.avi 2
+abnormal/exam071.avi 2
+abnormal/exam272.avi 2
+abnormal/exam110.avi 2
+abnormal/exam009.avi 2
+abnormal/exam116.avi 2
+abnormal/exam277.avi 2
+abnormal/exam222.avi 2
+abnormal/exam244.avi 2
+abnormal/exam257.avi 2
+abnormal/exam090.avi 2
+abnormal/exam263.avi 2
+abnormal/exam307.avi 2
+abnormal/exam153.avi 2
+abnormal/exam221.avi 2
+abnormal/exam275.avi 2
+abnormal/exam219.avi 2
+abnormal/exam191.avi 2
+abnormal/exam091.avi 2
+abnormal/exam251.avi 2
+abnormal/exam141.avi 2
+abnormal/exam253.avi 2
+abnormal/exam212.avi 2
+abnormal/exam231.avi 2
+abnormal/exam100.avi 2
+abnormal/exam172.avi 2
+abnormal/exam089.avi 2
+abnormal/exam131.avi 2
+abnormal/exam189.avi 2
+abnormal/exam021.avi 2
+abnormal/exam182.avi 2
+abnormal/exam303.avi 2
+abnormal/exam260.avi 2
+abnormal/exam112.avi 2
+abnormal/exam128.avi 2
+abnormal/exam177.avi 2
+abnormal/exam176.avi 2
+abnormal/exam146.avi 2
+abnormal/exam145.avi 2
+abnormal/exam296.avi 2
+abnormal/exam035.avi 2
+abnormal/exam040.avi 2
+abnormal/exam070.avi 2
+abnormal/exam137.avi 2
+abnormal/exam149.avi 2
+abnormal/exam138.avi 2
+abnormal/exam083.avi 2
+abnormal/exam107.avi 2
+abnormal/exam287.avi 2
+abnormal/exam129.avi 2
+abnormal/exam227.avi 2
+abnormal/exam290.avi 2
+abnormal/exam224.avi 2
+abnormal/exam156.avi 2
+abnormal/exam019.avi 2
+abnormal/exam099.avi 2
+abnormal/exam195.avi 2
+abnormal/exam154.avi 2
+abnormal/exam032.avi 2
+abnormal/exam101.avi 2
+abnormal/exam179.avi 2
+abnormal/exam082.avi 2
+abnormal/exam200.avi 2
+abnormal/exam284.avi 2
+abnormal/exam169.avi 2
+abnormal/exam229.avi 2
+abnormal/exam020.avi 2
+abnormal/exam160.avi 2
+abnormal/exam190.avi 2
+abnormal/exam216.avi 2
+abnormal/exam111.avi 2
+abnormal/exam115.avi 2
+abnormal/exam289.avi 2
+abnormal/exam088.avi 2
+abnormal/exam250.avi 2
+abnormal/exam108.avi 2
+abnormal/exam223.avi 2
+abnormal/exam086.avi 2
+abnormal/exam232.avi 2
+abnormal/exam056.avi 2
+abnormal/exam197.avi 2
+abnormal/exam173.avi 2
+abnormal/exam048.avi 2
+abnormal/exam265.avi 2
+abnormal/exam162.avi 2
+abnormal/exam192.avi 2
+abnormal/exam004.avi 2
+abnormal/exam130.avi 2
+abnormal/exam293.avi 2
+abnormal/exam134.avi 2
+abnormal/exam304.avi 2
+abnormal/exam012.avi 2
+abnormal/exam310.avi 2
+abnormal/exam006.avi 2
+abnormal/exam170.avi 2
+abnormal/exam074.avi 2
+abnormal/exam286.avi 2
+abnormal/exam026.avi 2
+abnormal/exam124.avi 2
+abnormal/exam213.avi 2
+abnormal/exam017.avi 2
+abnormal/exam217.avi 2
+abnormal/exam072.avi 2
+abnormal/exam242.avi 2
+abnormal/exam308.avi 2
+abnormal/exam205.avi 2
+abnormal/exam294.avi 2
+abnormal/exam073.avi 2
+abnormal/exam133.avi 2
+abnormal/exam068.avi 2
+abnormal/exam079.avi 2
+abnormal/exam171.avi 2
+abnormal/exam007.avi 2
+abnormal/exam181.avi 2
+abnormal/exam196.avi 2
+abnormal/exam313.avi 2
