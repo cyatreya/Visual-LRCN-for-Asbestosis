@@ -14,9 +14,9 @@ import os
 
 parser = argparse.ArgumentParser(
     description='UCF101 Action Recognition, LRCN architecture')
-parser.add_argument('--epochs', default=1000, type=int,
+parser.add_argument('--epochs', default=600, type=int,
                     help='number of total epochs')
-parser.add_argument('--model', default='resnet152', type=str,
+parser.add_argument('--model', default='densenet161', type=str,
                     help='model, EX) densenet201, resnet152')
 parser.add_argument('--batch-size', default=32, type=int,
                     help='mini-batch size (default:32)')
@@ -27,9 +27,9 @@ parser.add_argument('--num_workers', default=4, type=int,
 parser.add_argument('--split_size', default=0.2, type=int, help='set the size of the split size between validation '
                                                                 'data and train data')
 parser.add_argument('--sampled_data_dir',
-                    default=r'F:\CMC_sampled_data_video_sampling_rate_100_num frames extracted_15',
+                    default=r'F:\CMC_sampled_bottom',
                     type=str, help='The dir for the sampled row data')
-parser.add_argument('--ucf_list_dir', default='../Data_CMC/cmcTrainTestlist_non_aug',
+parser.add_argument('--ucf_list_dir', default='../Data_CMC/cmcTrainTestlist_non_aug/1_70',
                     type=str, help='path to find the UCF101 list, splitting the data to train and test')
 parser.add_argument('--num_frames_video', default=15, type=int,
                     help='The number of frames that would be sampled from each video (default:5)')

@@ -18,7 +18,7 @@ parser.add_argument('--model_name', default='epoch_30.pth.tar', type=str, help='
 def main():
     # ====== set the run settings ======
     args = parser.parse_args()
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
     folder_dir = set_project_folder_dir(args.open_new_folder, args.model_dir, use_model_folder_dir=True, mode='test')
     print('The setting of the run are:\n{}\n' .format(args))
     print('The training would take place on {}\n'.format(device))
@@ -40,7 +40,7 @@ def main():
     criterion = nn.CrossEntropyLoss()
     checkpoint = torch.load(os.path.join(args.model_dir, args.model_name))
     model.load_state_dict(checkpoint['model_state_dict'])
-    model = nn.DataParallel(model)
+    # model = nn.DataParallel(model)
     # ====== inference_mode ======
     test_loss, test_acc, predicted_labels, images, true_labels, index = test_model(model, dataloader, device, criterion,
                                                                             mode='save_prediction_label_list')

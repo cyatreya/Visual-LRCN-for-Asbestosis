@@ -6,10 +6,10 @@ from tqdm import tnrange, tqdm_notebook #used when I run in colab/GCloud
 import os
 
 parser = argparse.ArgumentParser(description='UCF101 Action Recognition preprocessing data, LRCN architecture')
-parser.add_argument('--row_data_dir', default=r'F:\h_data_avi', type=str,
+parser.add_argument('--row_data_dir', default=r'F:\cmc_data_avi_bottom', type=str,
                     help='path to find the UCF101 row data')
 parser.add_argument('--ucf_list_dir',
-                    default='../Data_CMC/cmcTrainTestlist_non_aug/h_70',
+                    default='../Data_CMC/cmcTrainTestlist_non_aug/1_70',
                     type=str, help='path to find the UCF101 list splitting the data to train and test')
 parser.add_argument('--sampling_rate', default=100, type=int, help='how to sample the data')
 parser.add_argument('--ucf101_fps', default=1, type=int, help='FPS of the UCF101 dataset')
@@ -84,7 +84,7 @@ def main_procesing_data(args, folder_dir, sampled_video_file=None, processing_mo
 if __name__ == '__main__':
     args = parser.parse_args()
     global_dir = os.path.normpath(args.row_data_dir + os.sep + os.pardir)
-    folder_name = '{}_sampled_data_video_sampling_rate_{}_num frames extracted_{}_h'.format(args.dataset, args.sampling_rate,
+    folder_name = '{}_sampled_data_video_sampling_rate_{}_num frames extracted_{}_bottom'.format(args.dataset, args.sampling_rate,
         args.num_frames_to_extract)
     folder_dir = os.path.join(global_dir, folder_name)
     create_folder_dir_if_needed(folder_dir)

@@ -13,8 +13,8 @@ import os
 
 
 parser = argparse.ArgumentParser(description='UCF101 Action Recognition, LRCN architecture')
-parser.add_argument('--epochs', default=1000, type=int, help='number of total epochs')
-parser.add_argument('--model', default='resnet152', type=str, help='model, EX) densenet201, resnet152')
+parser.add_argument('--epochs', default=600, type=int, help='number of total epochs')
+parser.add_argument('--model', default='densenet161', type=str, help='model, EX) densenet201, resnet152')
 parser.add_argument('--batch-size', default=32, type=int, help='mini-batch size (default:32)')
 parser.add_argument('--lr', default=5e-4, type=float, help='initial learning rate (default:5e-4')
 parser.add_argument('--num_workers', default=4, type=int,
@@ -22,9 +22,9 @@ parser.add_argument('--num_workers', default=4, type=int,
 parser.add_argument('--split_size', default=0.2, type=int, help='set the size of the split size between validation '
                                                                 'data and train data')
 parser.add_argument('--sampled_data_dir',
-                    default=r'F:\CMC_sampled_data_video_sampling_rate_100_num frames extracted_15',
+                    default=r'F:\CMC_sampled_bottom',
                     type=str, help='The dir for the sampled row data')
-parser.add_argument('--ucf_list_dir', default='../Data_CMC/cmcTrainTestlist_non_aug',
+parser.add_argument('--ucf_list_dir', default='../Data_CMC/cmcTrainTestlist_non_aug/1_70',
                     type=str, help='path to find the UCF101 list, splitting the data to train and test')
 parser.add_argument('--num_frames_video', default=15, type=int,
                     help='The number of frames that would be sampled from each video (default:5)')
@@ -53,7 +53,7 @@ parser.add_argument('--number_of_classes', default=2, type=int, help='The number
 def main():
     # ====== set the run settings ======
     args = parser.parse_args()
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
     folder_dir = set_project_folder_dir(args.open_new_folder, args.local_dir)
     print('The setting of the run are:\n{}\n'.format(args))
     print('The training would take place on {}\n'.format(device))
@@ -83,7 +83,7 @@ def main():
     if args.load_checkpoint:
         checkpoint = torch.load(args.checkpoint_path)
         model.load_state_dict(checkpoint['model_state_dict'])
-    model = nn.DataParallel(model)
+    # model = nn.DataParallel(model)
     # ====== start training the model ======
     for epoch in range(args.epochs):
         start_epoch = time.time()
