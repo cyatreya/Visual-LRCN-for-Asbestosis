@@ -245,8 +245,8 @@ def foward_step_no_labels(model, images):
 
 def foward_step(model, images, labels, criterion, mode=''):  # predections
     # Must be done before you run a new batch. Otherwise the LSTM will treat a new batch as a continuation of a sequence
-    model.module.Lstm.reset_hidden_state()
-    # model.Lstm.reset_hidden_state()
+    # model.module.Lstm.reset_hidden_state()
+    model.Lstm.reset_hidden_state()
     if mode == 'test':
         with torch.no_grad():
             output = model(images)
